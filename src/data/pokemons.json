@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbizarre",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+    "apiTypes": [
+      {
+        "name": "Poison",
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/0/05/Poison.png"
+      },
+      {
+        "name": "Plante",
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/c/c5/Grass.png"
+      }
+    ],
+    "selected": false 
+  },
+  {
+    "id": 2,
+    "name": "Herbizarre",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "apiTypes": [
+      {
+        "name": "Poison",
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/0/05/Poison.png"
+      },
+      {
+        "name": "Plante",
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/c/c5/Grass.png"
+      }
+    ],
+    "selected": false 
+  },
+  {
+    "id": 3,
+    "name": "Florizarre",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+    "apiTypes": [
+      {
+        "name": "Poison",
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/0/05/Poison.png"
+      },
+      {
+        "name": "Plante",
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/c/c5/Grass.png"
+      }
+    ],
+    "selected": false 
+  },
+  {
+    "id": 4,
+    "name": "Salam\u00e8che",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+    "apiTypes": [
+      {
+        "name": "Feu",
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/3/30/Fire.png"
+      }
+    ],
+    "selected": false 
+  },
+  {
+    "id": 5,
+    "name": "Reptincel",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+    "apiTypes": [
+      {
+        "name": "Feu",
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/3/30/Fire.png"
+      }
+    ],
+    "selected": false 
+  },
+  {
+    "id": 6,
+    "name": "Dracaufeu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    "apiTypes": [
+      {
+        "name": "Vol",
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/7/7f/Flying.png"
+      },
+      {
+        "name": "Feu",
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/3/30/Fire.png"
+      }
+    ],
+    "selected": false 
+  },
+  {
+    "id": 7,
+    "name": "Carapuce",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+    "apiTypes": [
+      {
+        "name": "Eau",
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/9/9d/Water.png"
+      }
+    ],
+    "selected": false 
+  },
+  {
+    "id": 8,
+    "name": "Carabaffe",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+    "apiTypes": [
+      {
+        "name": "Eau",
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/9/9d/Water.png"
+      }
+    ],
+    "selected": false 
+  },
+  {
+    "id": 9,
+    "name": "Tortank",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+    "apiTypes": [
+      {
+        "name": "Eau",
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/9/9d/Water.png"
+      }
+    ],
+    "selected": false 
+  },
+  {
+    "id": 10,
+    "name": "Chenipan",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+    "apiTypes": [
+      {
+        "name": "Insecte",
+        "image": "https://static.wikia.nocookie.net/pokemongo/images/7/7d/Bug.png"
+      }
+    ],
+    "selected": false 
+  }
+]
