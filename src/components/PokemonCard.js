@@ -1,25 +1,11 @@
 import './PokemonCard.css';
+import PropTypes from 'prop-types';
 
-const apiTypes = [
-  {
-    name: 'Poison',
-    image: 'https://static.wikia.nocookie.net/pokemongo/images/0/05/Poison.png',
-  },
-  {
-    name: 'Plante',
-    image: 'https://static.wikia.nocookie.net/pokemongo/images/c/c5/Grass.png',
-  },
-];
-
-const PokemonCard = () => {
+const PokemonCard = ({ name, image = '', apiTypes = [] }) => {
   return (
     <div className="PokemonCard" onClick={() => console.log('POKEMON CARD')}>
-      <img
-        className="PokemonCard-image"
-        alt=""
-        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
-      />
-      <h6 className="PokemonCard-name">Bulbizarre</h6>
+      <img className="PokemonCard-image" alt="" src={image} />
+      <h6 className="PokemonCard-name">{name}</h6>
       <div className="PokemonCard-types">
         {apiTypes.map((type) => (
           <div key={type.name} className="PokemonCard-type">
@@ -31,4 +17,11 @@ const PokemonCard = () => {
     </div>
   );
 };
+
+PokemonCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  image: PropTypes.string,
+  apiTypes: PropTypes.array,
+};
+
 export default PokemonCard;
