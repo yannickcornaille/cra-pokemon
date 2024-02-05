@@ -13,7 +13,7 @@ const apiTypes = [
 
 const PokemonCard = () => {
   return (
-    <div className="PokemonCard">
+    <div className="PokemonCard" onClick={() => console.log('POKEMON CARD')}>
       <img
         className="PokemonCard-image"
         alt=""
@@ -22,7 +22,7 @@ const PokemonCard = () => {
       <h6 className="PokemonCard-name">Bulbizarre</h6>
       <div className="PokemonCard-types">
         {apiTypes.map((type) => (
-          <div className="PokemonCard-type">
+          <div key={type.name} className="PokemonCard-type">
             <img alt="" src={type.image} />
             <span>{type.name}</span>
           </div>
