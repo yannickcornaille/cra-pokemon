@@ -1,11 +1,20 @@
 import './App.css';
 import Title from './components/Title';
 import PokemonCard from './components/PokemonCard';
-import pokemonsData from './data/pokemons.json';
+// import pokemonsData from './data/pokemons.json';
 import { useState } from 'react';
+import PokemonForm from './components/PokemonForm';
 
 const App = () => {
-  const [pokemons, setPokemons] = useState(pokemonsData);
+  const [pokemons, setPokemons] = useState([]);
+
+  const handleSearchSubmit = async (name) => {
+    const data = await fetch(
+      `https://pokemon-api-smoky.vercel.app/api/search/pokemons?${new URLSearchParams({ q: name })}`
+    );
+    const results = await data.json();
+    setPokemons(results);
+  };
 
   const handlePokemonClick = (id) => {
     setPokemons(
@@ -24,6 +33,9 @@ const App = () => {
         <Title />
       </header>
       <main>
+        <div className="App-form">
+          <PokemonForm onSearchSubmit={handleSearchSubmit} />
+        </div>
         <div className="App-pokemons">
           {pokemons.map((pokemon) => (
             // <PokemonCard name={pokemon.name} image={pokemon.image} />
